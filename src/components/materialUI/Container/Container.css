@@ -1,0 +1,37 @@
+.Container {
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  overflow: auto;
+}
+
+/* portrait */
+
+.portrait.handset .Container {
+  padding: 16px;
+}
+.portrait.handset .Container.withAppBar {
+  padding-top: 72px;
+}
+
+.portrait.tablet .Container.withAppBar {
+  padding-top: 88px;
+}
+
+.portrait.desktop .Container.withAppBar {
+  padding-top: 96px;
+}
+
+/* landscape */
+
+.landscape.handset .Container.withAppBar {
+  padding-top: 64px;
+}
+
+.landscape.tablet .Container.withAppBar {
+  padding-top: 80px;
+}
+
+.landscape.desktop .Container.withAppBar {
+  padding-top: 88px;
+}
