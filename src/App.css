@@ -1,38 +1,80 @@
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* handset portrait */
+
+.App.portrait.handset.small {
+  background: #550000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App.portrait.handset.medium {
+  background: #990000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App.portrait.handset.large {
+  background: #cc0000;
 }
 
-.App-link {
-  color: #61dafb;
+/* handset landscape */
+
+.App.landscape.handset.small {
+  background: #555500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App.landscape.handset.medium {
+  background: #995500;
+}
+
+.App.landscape.handset.large {
+  background: #cc5500;
+}
+
+/* tablet portrait */
+
+.App.portrait.tablet.medium {
+  background: #009900;
+}
+
+.App.portrait.tablet.large {
+  background: #00cc00;
+}
+
+/* tablet landscape */
+
+.App.landscape.tablet.medium {
+  background: #009988;
+}
+
+.App.landscape.tablet.large {
+  background: #00cc88;
+}
+
+/* desktop portrait */
+
+.App.portrait.desktop.medium {
+  background: #000055;
+}
+
+.App.portrait.desktop.large {
+  background: #000077;
+}
+
+.App.portrait.desktop.extra-large {
+  background: #000099;
+}
+
+/* desktop landscape */
+
+.App.landscape.desktop.small {
+  background: #0000bb;
+}
+
+.App.landscape.desktop.medium {
+  background: #0000dd;
+}
+
+.App.landscape.desktop.large {
+  background: #0000ff;
 }
