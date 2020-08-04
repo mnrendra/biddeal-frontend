@@ -1,0 +1,44 @@
+.AppBar {
+  width: 100%;
+  padding: 16px 24px;
+  background: #009688;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+.AppBar-rightActions {
+  float: right
+}
+
+.AppBar-title {
+  font-size: 20px;
+  padding: 0 24px;
+  cursor: default;
+}
+
+/* portrait */
+
+.portrait.handset .AppBar {
+  height: 56px;
+}
+
+.portrait.tablet .AppBar {
+  height: 64px;
+}
+
+.portrait.desktop .AppBar {
+  height: 56px;
+}
+
+/* landscape */
+
+.landscape.handset .AppBar {
+  height: 48px;
+}
+
+.landscape.tablet .AppBar {
+  height: 56px;
+}
+
+.landscape.desktop .AppBar {
+  height: 64px;
+}

@@ -1,24 +1,18 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 import { useResponsive } from './hooks'
+
+import Home from './components/Home'
 
 import './App.css'
 
 const App = () => {
   const { orientation, device, size } = useResponsive()
 
-  useEffect(() => {
-    console.log('=========')
-  }, [])
-
-  useEffect(() => {
-    console.log('---------')
-  })
-
-  console.log('APP')
-
   return (
-    <div className={`App ${orientation} ${device} ${size}`}>React App</div>
+    <div className={`App ${orientation} ${device} ${size}`}>
+      <Home />
+    </div>
   )
 }
 
