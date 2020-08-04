@@ -3,7 +3,8 @@ import React from 'react'
 import {
   AppBar,
   Container,
-  Grid
+  Grid,
+  Card
 } from '../materialUI'
 
 import {
@@ -42,42 +43,66 @@ const Home = () => {
         <Grid
           colSize='large'
         >
-          <div style={{ height: '100px', padding: '8px' }}>
-            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>1</div>
-          </div>
-          <div style={{ height: '100px', padding: '8px' }}>
-            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>2</div>
-          </div>
-          <div style={{ height: '100px', padding: '8px' }}>
-            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>3</div>
-          </div>
-          <div style={{ height: '100px', padding: '8px' }}>
-            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>4</div>
-          </div>
-          <div style={{ height: '100px', padding: '8px' }}>
-            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>5</div>
-          </div>
-          <div style={{ height: '100px', padding: '8px' }}>
-            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>6</div>
-          </div>
-          <div style={{ height: '100px', padding: '8px' }}>
-            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>7</div>
-          </div>
-          <div style={{ height: '100px', padding: '8px' }}>
-            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>8</div>
-          </div>
-          <div style={{ height: '100px', padding: '8px' }}>
-            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>9</div>
-          </div>
-          <div style={{ height: '100px', padding: '8px' }}>
-            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>10</div>
-          </div>
-          <div style={{ height: '100px', padding: '8px' }}>
-            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>11</div>
-          </div>
-          <div style={{ height: '100px', padding: '8px' }}>
-            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>12</div>
-          </div>
+          <Card
+            media={{ type: 'image', url: 'https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA' }}
+            title='Title'
+            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+          />
+          <Card
+            media={{ type: 'image', url: 'https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA' }}
+            title='Title'
+            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+          />
+          <Card
+            media={{ type: 'image', url: 'https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA' }}
+            title='Title'
+            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+          />
+          <Card
+            media={{ type: 'image', url: 'https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA' }}
+            title='Title'
+            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+          />
+          <Card
+            media={{ type: 'image', url: 'https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA' }}
+            title='Title'
+            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+          />
+          <Card
+            media={{ type: 'image', url: 'https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA' }}
+            title='Title'
+            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+          />
+          <Card
+            media={{ type: 'image', url: 'https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA' }}
+            title='Title'
+            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+          />
+          <Card
+            media={{ type: 'image', url: 'https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA' }}
+            title='Title'
+            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+          />
+          <Card
+            media={{ type: 'image', url: 'https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA' }}
+            title='Title'
+            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+          />
+          <Card
+            media={{ type: 'image', url: 'https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA' }}
+            title='Title'
+            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+          />
+          <Card
+            media={{ type: 'image', url: 'https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA' }}
+            title='Title'
+            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+          />
+          <Card
+            media={{ type: 'image', url: 'https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA' }}
+            title='Title'
+            description='Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+          />
         </Grid>
       </Container>
     </div>

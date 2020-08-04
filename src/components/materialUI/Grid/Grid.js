@@ -7,7 +7,7 @@ const Grid = ({ children, colSize }) => {
 
   return (
     <div className={'Grid' + _colSize}>
-      {children}
+      {children.map((Child, index) => <div className='Grid-col' key={index}>{Child}</div>)}
     </div>
   )
 }
