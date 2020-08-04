@@ -2,7 +2,8 @@ import React from 'react'
 
 import {
   AppBar,
-  Container
+  Container,
+  Grid
 } from '../materialUI'
 
 import {
@@ -38,25 +39,46 @@ const Home = () => {
         fixed
       />
       <Container paddingTop='withAppBar'>
-        <div style={{ width: '100%' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        <div style={{ width: '100%', height: '16px' }}>{}</div>
-        <div style={{ width: '100%' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        <div style={{ width: '100%', height: '16px' }}>{}</div>
-        <div style={{ width: '100%' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        <div style={{ width: '100%', height: '16px' }}>{}</div>
-        <div style={{ width: '100%' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        <div style={{ width: '100%', height: '16px' }}>{}</div>
-        <div style={{ width: '100%' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        <div style={{ width: '100%', height: '16px' }}>{}</div>
-        <div style={{ width: '100%' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        <div style={{ width: '100%', height: '16px' }}>{}</div>
-        <div style={{ width: '100%' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        <div style={{ width: '100%', height: '16px' }}>{}</div>
-        <div style={{ width: '100%' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        <div style={{ width: '100%', height: '16px' }}>{}</div>
-        <div style={{ width: '100%' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-        <div style={{ width: '100%', height: '16px' }}>{}</div>
-        <div style={{ width: '100%' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        <Grid
+          colSize='large'
+        >
+          <div style={{ height: '100px', padding: '8px' }}>
+            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>1</div>
+          </div>
+          <div style={{ height: '100px', padding: '8px' }}>
+            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>2</div>
+          </div>
+          <div style={{ height: '100px', padding: '8px' }}>
+            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>3</div>
+          </div>
+          <div style={{ height: '100px', padding: '8px' }}>
+            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>4</div>
+          </div>
+          <div style={{ height: '100px', padding: '8px' }}>
+            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>5</div>
+          </div>
+          <div style={{ height: '100px', padding: '8px' }}>
+            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>6</div>
+          </div>
+          <div style={{ height: '100px', padding: '8px' }}>
+            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>7</div>
+          </div>
+          <div style={{ height: '100px', padding: '8px' }}>
+            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>8</div>
+          </div>
+          <div style={{ height: '100px', padding: '8px' }}>
+            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>9</div>
+          </div>
+          <div style={{ height: '100px', padding: '8px' }}>
+            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>10</div>
+          </div>
+          <div style={{ height: '100px', padding: '8px' }}>
+            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>11</div>
+          </div>
+          <div style={{ height: '100px', padding: '8px' }}>
+            <div style={{ width: '100%', height: '100%', background: '#EEEEEE' }}>12</div>
+          </div>
+        </Grid>
       </Container>
     </div>
   )
