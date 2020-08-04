@@ -1,0 +1,35 @@
+.Grid {
+  width: 100%;
+}
+
+.Grid .Grid-col {
+  padding: 8px;
+}
+
+/* portrait */
+
+.portrait.handset .Grid.colSize-large .Grid-col {
+  width: 50%;
+}
+
+.portrait.tablet .Grid.colSize-large .Grid-col {
+  width: 33.3333333333%;
+}
+
+.portrait.desktop .Grid.colSize-large .Grid-col {
+  width: 25%;
+}
+
+/* landscape */
+
+.landscape.handset .Grid.colSize-large .Grid-col {
+  width: 33.3333333333%;
+}
+
+.landscape.tablet .Grid.colSize-large .Grid-col {
+  width: 25%;
+}
+
+.landscape.desktop .Grid.colSize-large .Grid-col {
+  width: 20%;
+}

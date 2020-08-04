@@ -2,9 +2,9 @@ import React from 'react'
 
 import './AppBar.css'
 
-const AppBar = ({ title, leftActions, rightActions }) => {
+const AppBar = ({ title, leftActions, rightActions, fixed }) => {
   return (
-    <div className='AppBar'>
+    <div className={`AppBar ${fixed ? 'fixed' : ''}`}>
       {/* left actions */}
       {leftActions.length && (
         <div className='AppBar-leftActions'>
