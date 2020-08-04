@@ -1,0 +1,16 @@
+.Icon {
+  width: 24px;
+  height: 24px;
+  fill: rgba(0, 0, 0, .5);
+  cursor: pointer;
+}
+
+.Icon svg {
+  width: inherit;
+  height: inherit;
+  fill: inherit;
+}
+
+.Icon:hover {
+  fill: #FFFFFF;
+}
