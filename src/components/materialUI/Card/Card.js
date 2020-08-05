@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Button from '../Button'
+
 import './Card.css'
 
 const Card = ({ media, title, description }) => {
@@ -14,6 +16,9 @@ const Card = ({ media, title, description }) => {
       {/* description */}
       <div className='Card-description'>{description}</div>
       {/* actions */}
+      <div className='Card-actions'>
+        <Button label='BUY' flat right />
+      </div>
       {/* */}
     </div>
   )

@@ -21,12 +21,17 @@
 
 .Card-title {
   width: 100%;
-  padding: 16px 16px 8px;
-  font-size: 20px;
+  padding: 16px 16px 4px;
+  font-size: 18px;
   font-weight: 700;
 }
 
 .Card-description {
+  width: 100%;
+  padding: 4px 16px 8px;
+}
+
+.Card-actions {
   width: 100%;
   padding: 8px 16px 16px;
 }
